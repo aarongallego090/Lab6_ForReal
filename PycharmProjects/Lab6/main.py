@@ -7,8 +7,13 @@ def encode(pw):
     return encoded
 
 
+# Lucas Stultz did decode
 def decode(pw):
-    pass
+    decoded = encode(pw)
+    original = ''
+    for digit in decoded:
+        original += str((int(digit) - 3) % 10)
+    return original
 
 
 def main():

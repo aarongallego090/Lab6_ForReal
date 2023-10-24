@@ -1,3 +1,5 @@
+# Aaron Gallego
+
 def encode(pw):
     encoded = ""
     for digit in pw:

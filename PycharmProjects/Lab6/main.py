@@ -6,11 +6,7 @@ def encode(pw):
 
 
 def decode(pw):
-    decoded = encode(pw)
-    original = ''
-    for digit in decoded:
-        original += str(int(digit) - 3)
-    return original
+    pass
 
 
 def main():
